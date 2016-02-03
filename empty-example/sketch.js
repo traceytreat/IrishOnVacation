@@ -12,7 +12,7 @@ function setup() {
     cloud = loadImage("cloud.png");
     bg = loadImage("sky.jpg");
     sand = loadImage("sand.png");
-    santa = loadImage("santa.png");
+    santa = loadImage("rosemount.png");
  // Create objects
  for (var i=0; i<5; i++) {
    bugs.push(new Jitter());
@@ -62,17 +62,17 @@ function draw() {
  }
   image(img, 300, -30, img.width/4, img.height/4);
   drawWave(80);
-  image(santa, 300, 150, santa.width/2, santa.height/2);
+  image(santa, 300, 200, santa.width/1.5, santa.height/1.5);
   stroke(0);
   strokeWeight(2);
   fill(255);
   textSize(30);
-  text("Santa on Vacation",450,380);
+  text("Irish on Vacation",450,380);
   stroke(0);
   strokeWeight(2);
   fill(255);
   textSize(10);
-  text("Tracey Treat p.1",550,395);
+  text("by: Tracey Treat p.1",520,395);
 
 }
 // Jitter class
